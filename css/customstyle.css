@@ -3,7 +3,6 @@
 
 body, body.ui-mobile-viewport.ui-overlay-c
 {
-	background:url(../img/background-01.png);
 	background-color: rgba(0,0,0,0) !important;
 	background-size:cover;
 }
@@ -15,33 +14,22 @@ div.ui-body-c, div.ui-overlay-c {
     text-shadow: 0 1px 0 #FFFF
 }
 
-input, textarea
-{
-	border-radius: 0px 0px 0px !important;
-	background: #fff !important;
-}
-div .ui-corner-all 
-{
-	border-radius: 0px 0px 0px !important;
-}
-div .ui-input-text
-{
-		background: #fff !important;
-}
 .ui-shadow-inset
 {
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0) inset !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0) inset !important;
 }
-.ui-bar-a 
+
+.ui-bar-a
 {
     background: linear-gradient(#2383C6, #344B72) repeat scroll 0 0 #111111;
-	min-height: 40px;
-	max-height: 40px;
-	height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    height: 40px;
 }
+
 img.navlogo
 {
-	height: 20px;
+    height: 20px;
     left: 20px;
     position: absolute;
     top: 10px;
@@ -49,7 +37,7 @@ img.navlogo
 }
 img.doublebarnavleft
 {
-	height: 40px;
+    height: 40px;
     left: 100px;
     position: absolute;
     top: 0;
@@ -57,33 +45,48 @@ img.doublebarnavleft
 }
 img.doublebarnavright
 {
-	height: 40px;
-	right: 100px;
-	position: absolute;
-	top: 0;
-	width: 3px;
+    height: 40px;
+    right: 100px;
+    position: absolute;
+    top: 0;
+    width: 3px;
 }
 img.accounticonnav
 {
-	height: 20px;
-	right: 50px;
-	position:absolute;
-	top: 10px;
-	width: auto;
+    height: 20px;
+    right: 50px;
+    position:absolute;
+    top: 10px;
+    width: auto;
 }
 .arrow-down {
-	 border-left: 5px solid rgba(0,0,0,0);
+    border-left: 5px solid rgba(0,0,0,0);
     border-right: 5px solid rgba(0,0,0,0);
     border-top: 5px solid #FFF;
     height: 0;
     width: 0;
-	position:absolute;
-	  right: 30px;
+    position:absolute;
+    right: 30px;
     top: 18px;
 }
 h1.ui-title
 {
-	 margin: 0.8em 30% !important;
+    margin: 0.8em 30% !important;
+}
+
+/*
+input, textarea
+{
+	border-radius: 0px 0px 0px !important;
+	background: #fff !important;
+}
+div .ui-corner-all
+{
+	border-radius: 0px 0px 0px !important;
+}
+div .ui-input-text
+{
+		background: #fff !important;
 }
 
 table, table.ui-table
@@ -97,7 +100,7 @@ table tr td, table tr th, .ui-table th, .ui-table td
 	 text-overflow: ellipsis;
 	 overflow:hidden;
 	 color: #180673;
-	 
+
 }
 
 . ui-table-reflow
@@ -110,7 +113,7 @@ table tr td, table tr th, .ui-table th, .ui-table td
 	width: 100%;
 }
 
-/*STYLES BUTTONS*/
+STYLES BUTTONS
 img.appbutton
 {
 	height: 30px;
@@ -126,9 +129,10 @@ span.buttonfooter
 	width: 50%;
 	min-width: 230px;
 	max-width:250px;
-	
+
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
 	height: 40px;
 }
+*/
