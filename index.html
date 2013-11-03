@@ -1,0 +1,79 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Parse App</title>
+    <meta name="description" content="My Parse App">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css"/>
+    <link rel="stylesheet" href="css/auTix.css">
+
+    <!-- jQuery api's -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+    <!-- Parse api's -->
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+
+    <!-- google map api's -->
+
+</head>
+<body class="ui-mobile-viewport ui-overlay-c">
+
+<div data-role="page" data-url="/demos/1.2.1/docs/pages/page-template.html" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 207px;">
+
+    <div data-role="header" class="ui-header ui-bar-a" role="banner">
+        <h1 class="ui-title" role="heading" aria-level="1">AuTix</h1>
+    </div>
+    <!-- /header -->
+
+    <div data-role="content" class="ui-content" role="main">
+        <form id="eventDetailsForm" class="eventDetailsForm">
+            <input type="text" data-clear-btn="true" name="eventName" id="eventName" value="" placeholder="Event Name">
+            <textarea data-clear-btn="true" name="details" id="details" placeholder="Details" cols="40" rows="8"></textarea>
+            <table data-role="table" id="locationDetailsTable" class="ui-responsive table-stroke">                 
+                <thead>                    
+                    <tr>
+                        <th>Location</th>
+                        <th>Discount</th>
+                        <th># of Discount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <table data-role="table" id="locationDetailsInput" class="ui-responsive table-stroke">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><input type="text" data-clear-btn="true" name="location" id="location" value="" placeholder="Location(eg:address)"></th>                          
+                        <td><input type="text" data-clear-btn="true" name="discount" id="discount" value="" placeholder="Discount(eg:10%)"></td>                          
+                        <td><input type="text" data-clear-btn="true" name="count" id="count" value="" placeholder="# of Discounts"></td>
+                        <td><a href="#" id="addLocationDetailsButton" data-role="button" data-iconpos="notext" data-icon="plus" data-theme="b">Add</a>
+                        </td>
+                    </tr>                  
+                </tbody>
+            </table>
+            <a href="#" id="submitEventButton" data-role="button" data-mini="true" data-inline="true" data-icon="check" data-theme="b">Save</a>
+        </form>
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->
+</body>
+<!-- application javascripts -->
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/parse.js"></script>
+<script type="text/javascript" src="js/event.js"></script>
+</html>
+
